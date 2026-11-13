@@ -1,0 +1,47 @@
+/* Design tokens — forest green + saffron on warm paper. */
+:root {
+  --ink: #1b2420;
+  --ink-soft: #55615b;
+  --ink-faint: #8b958f;
+
+  --paper: #f5f1e8;
+  --paper-raised: #fffdf8;
+  --paper-sunk: #ece6d9;
+  --line: #e2dac9;
+  --line-strong: #cfc4ad;
+
+  --forest: #173a30;
+  --forest-2: #1f4d40;
+  --leaf: #2f7a5f;
+  --leaf-wash: #e3efe7;
+  --saffron: #f2b134;
+  --saffron-deep: #c98a12;
+  --saffron-wash: #fdf0d2;
+  --chili: #c4442f;
+  --chili-wash: #fbe5df;
+
+  --font-body: 'DM Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-pill: 999px;
+
+  --lift: 0 1px 0 rgba(23, 58, 48, 0.04), 0 8px 24px -12px rgba(23, 58, 48, 0.18);
+  --lift-strong: 0 18px 50px -18px rgba(23, 58, 48, 0.45);
+
+  --nav-width: 248px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* Status tones used by pills, breakdown bars, etc. */
+.tone-blue   { --tone: #2f5fb3; --tone-wash: #e5ecf8; }
+.tone-teal   { --tone: #167a7a; --tone-wash: #dff1ef; }
+.tone-amber  { --tone: #a86d05; --tone-wash: #fbefd4; }
+.tone-violet { --tone: #6c4bb5; --tone-wash: #ece6f8; }
+.tone-rose   { --tone: #b03a6e; --tone-wash: #f8e3ec; }
+.tone-orange { --tone: #c25418; --tone-wash: #fbe7da; }
+.tone-green  { --tone: #2a7a4f; --tone-wash: #e0f1e6; }
+.tone-red    { --tone: #b8382a; --tone-wash: #f9e2de; }
+.tone-slate  { --tone: #5b6670; --tone-wash: #e8eaec; }
